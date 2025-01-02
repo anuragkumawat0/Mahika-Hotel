@@ -1,0 +1,92 @@
+*{
+    transition:0.3s;
+  }        
+  body {
+              background-image: url("https://i.ibb.co/pPjzvRy/Whats-App-Image-2025-01-02-at-12-27-46-88b5cf5e.jpg");
+              background-color: #cccccc;
+              background-repeat: no-repeat;
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              color: #333;
+  /*             background-color: #f4f4f4; */
+          }
+  
+          header {
+              background-color: #000;
+              color: white;
+              padding: 20px;
+              text-align: center;
+          }
+  
+          header h1 {
+              margin: 0;
+              color:#ffa;
+              font-size: 44px;
+          }
+  
+          header p {
+              margin: 0;
+              font-size: 1em;
+          }
+  
+          .video-container {
+              text-align: center;
+              margin: 10px 0;
+          }
+  
+          .video-container iframe {
+              width: 90%;
+              aspect-ratio: 9 / 16;
+              border-radius: 8px;
+              border: none;
+          }
+          .rooms {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 20px;
+              padding: 10px;
+          }
+  
+          .room {
+              background-color: white;
+              border-radius: 8px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+              width: 90%;
+          }
+  
+          .room img {
+              width: 100%;
+              height: auto;
+              border-bottom: 1px solid #ddd;
+          }
+          
+  .room img:hover{
+    transform: scale(1.01)
+  }
+  
+          .room h2 {
+              margin: 0;
+              padding: 10px;
+              font-size: 1.2em;
+              color: #333;
+          }
+  
+          .room p {
+              margin: 0;
+              padding: 0 10px 10px;
+              font-size: 0.9em;
+              color: #666;
+          }
+  
+          footer {
+              text-align: center;
+              padding: 10px;
+              background-color: #333;
+              color: white;
+              /* position: ; */
+              width: 100%;
+              bottom: 0;
+          }
